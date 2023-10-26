@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+        "./scripts_shared"
+    ],
+    "cSpell.words": [
+        "astype",
+        "dataframe",
+        "demojize",
+        "dropna",
+        "langdetect"
+    ]
+}
