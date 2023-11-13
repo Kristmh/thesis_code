@@ -5,15 +5,18 @@ import numpy as np
 from langdetect import detect
 
 def preprocess_text(text):
+
+    if not is_english(text):
+        # If no english set to NaN.
+        text = np.nan
+        return text
     text = text.lower()  # Lowercase text
     text = re.sub(f"[{re.escape(punctuation)}]", "", text)  # Remove punctuation
     text = " ".join(text.split())  # Remove extra spaces, tabs, and new lines
     text = re.sub(r"https?://\S+", "", text) # Remove URLs.
     text = emoji.demojize(text)
     text = re.sub(r':[a-z_]+:', '', text)  #removes the text representations of emojis
-    if not is_english(text):
-        # If no english set to NaN.
-        text = np.nan
+    text = re.sub(r'0x[a-fA-F0-9]+', '', text) # Removes hexadecimal strings (ref to commits)
     return text
 
 
