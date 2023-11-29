@@ -3,10 +3,11 @@ from accelerate import Accelerator
 from transformers import AutoModelForSequenceClassification, get_scheduler
 import pandas as pd
 import numpy as np
-from datasests import Dataset, DatasetDict
+from datasets import Dataset, DatasetDict
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, DataCollatorWithPadding
 from torch.optim import AdamW
+from tqdm.auto import tqdm
 
 data = pd.read_csv("csv/clean_priority_high_or_not_high.csv" , index_col = 0)
 
