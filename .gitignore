@@ -3,9 +3,10 @@
 *.csv
 *.bin
 *.h5
-*.safetensor
+*.safetensors
 model/
 model_local/
+model1_local/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
