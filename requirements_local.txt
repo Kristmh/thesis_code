@@ -1,5 +1,18 @@
+# Only local, since fox loads pytorch
+torch
+torchvision
+torchaudio
+
+# For both
 wandb
 transformers
 torch
 joblib
 scikit-learn
+datasets
+GPUtil
+numba
+seaborn
+codecarbon
+python-dotenv
+colorama
