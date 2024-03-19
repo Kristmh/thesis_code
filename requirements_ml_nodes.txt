@@ -1,3 +1,4 @@
+# For both
 wandb
 transformers
 torch
@@ -9,3 +10,4 @@ numba
 seaborn
 codecarbon
 python-dotenv
+colorama
