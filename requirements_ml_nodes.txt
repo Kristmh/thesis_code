@@ -3,3 +3,9 @@ transformers
 torch
 joblib
 scikit-learn
+datasets
+GPUtil
+numba
+seaborn
+codecarbon
+python-dotenv

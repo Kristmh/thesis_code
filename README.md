@@ -1,5 +1,12 @@
 # Master thesis code 
 
+## Fox setup
+pip install --user -r requirements_ml_nodes.txt
+
+add this at the start of every notebook:
+import sys
+sys.path.append("/fp/homes01/u01/ec-krimhau/.local/lib/python3.11/site-packages")
+
 
 ## Login
 ssh -L 7765:localhost:7765 -J username@gothmog.uio.no username@ml3.hpc.uio.no
