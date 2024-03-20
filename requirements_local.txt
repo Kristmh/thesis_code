@@ -4,6 +4,7 @@ torchvision
 torchaudio
 
 # For both
+sentencepiece
 wandb
 transformers
 torch

@@ -1,4 +1,5 @@
 # For both
+sentencepiece
 wandb
 transformers
 torch
