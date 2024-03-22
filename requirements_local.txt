@@ -17,3 +17,5 @@ seaborn
 codecarbon
 python-dotenv
 colorama
+emoji
+langdetect
