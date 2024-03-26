@@ -1,3 +1,4 @@
+.wandb
 .vscode
 # CSV file
 *.csv
