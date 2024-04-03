@@ -1,5 +1,6 @@
 wandb/
 priority_model_deberta/jira_models/highest_high_vs_rest/01_output_train_highest_high_vs_rest_jira.ipynb
+priority_model_deberta/jira_models/highest_high_vs_low_lowest/01_training/01_output_train_highest_vs_lowest_jira.ipynb
 *.wandb
 .vscode
 # CSV file
