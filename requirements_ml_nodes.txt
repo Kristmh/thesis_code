@@ -16,3 +16,7 @@ emoji
 langdetect
 swifter
 papermill
+nltk
+spacy
+wordcloud
+plotly
